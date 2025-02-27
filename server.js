@@ -6,9 +6,9 @@ const ngrok = require("ngrok");
 const app = express();
 const PORT = 3000;
 
-const BOT_TOKEN = "7602401910:AAE4SdHSofXJr_aBtb-PPCkEgIRuFPmx-98";
-const CHAT_ID = "7681754803";
-const NGROK_AUTH_TOKEN = "2ZreK3TTekH6QMmYYPeN7KMgBgX_4PGSZNzpoeG3LtonhjrD5";
+const BOT_TOKEN = "7935154568:AAFZmmi0cmUFoFUW0L7YjqYYROqPmt9jVlY";
+const CHAT_ID = "7246521618";
+const NGROK_AUTH_TOKEN = "20PJ8sHqtCeIgSgHPlBOA7QUIsd_2rqRWToavG4tqKdewNUas";
 
 app.use(bodyParser.json());
 
