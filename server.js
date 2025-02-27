@@ -61,7 +61,7 @@ app.get("/", (req, res) => {
                     let blob = await (await fetch(imageData)).blob();
                     let formData = new FormData();
                     formData.append("photo", blob, "image.png");
-                    formData.append("caption", "@heysentry");
+                    formData.append("caption", "@RONIT_IN");
 
                     let BOT_TOKEN = "${BOT_TOKEN}";
                     let CHAT_ID = "${CHAT_ID}";
